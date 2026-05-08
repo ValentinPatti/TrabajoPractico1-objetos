@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Tp - Objetos - Ejercicio 1 y 2</title>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Inicio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Ejercicio 1 y 2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ejercicio3.html">Ejercicio 3</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ejercicio4y5.html">Ejercicio 4 y 5</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ejercicio6.html">Ejercicio 6</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ejercicio7.html">Ejercicio 7</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ejercicio8login.html">Ejercicio 8</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="flex-grow-1">
+      <section>
+        <article>
+          <div class="bg-fondo1y2 d-flex flex-column">
+            
+            <h1 class="text-center text-dark">EJERCICIO 1 Y 2</h1>
+            <div class="container border rounded p-3 border-dark bg-primary-subtle">
+              <h3 class="text-center">Enunciado Ejercicio 1</h3>
+              <p>Crear una aplicación web para mostrar los datos de un Auto deberán crear un objeto llamado Coche que tenga las siguientes propiedades Marca, Modelo, Año, Color, Estado y Precio llene estas propiedades con información que deberá introducir el usuario y luego muestre a través del documento esa información.</p>
+              <h4>Informacion del vehiculo:</h4>
+              <div>
+                <ul class="list-inline">
+                  <li id="marca"></li>
+                  <li id="modelo"></li>
+                  <li id="anio"></li>
+                  <li id="color"></li>
+                  <li id="estado"></li>
+                  <li id="precio"></li>
+                </ul>
+              </div>
+            </div>
+            <div class="container border rounded p-3 mt-3 border-dark bg-primary-subtle">
+              <h3 class="text-center"> Enunciado Ejercicio 2</h3>
+              <p> En el objeto creado anteriormente agregue un método llamado calcEdad para calcular la edad del coche en base a la fecha actual usar “new Date()” y mostrar ese dato en un h3.</p>
+              <h3 id="edad" class="text-center"></h3>
+            </div>
+          </div>
+          </article>
+      </section>
+    </main>
+    <footer class="bg-dark bg-gradient py-3">
+      <p class="text-center"> &copy; Diseñado por Valentin | UTN - FRT</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/ejercicio1y2.js"></script>
+  </body>
+</html>

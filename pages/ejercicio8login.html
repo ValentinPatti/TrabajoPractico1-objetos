@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Tp - Objetos - Ejercicio 8</title>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Inicio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./ejercicio1y2.html"
+                  >Ejercicio 1 y 2</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ejercicio3.html">Ejercicio 3</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ejercicio4y5.html"
+                  >Ejercicio 4 y 5</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ejercicio6.html">Ejercicio 6</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ejercicio7.html">Ejercicio 7</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Ejercicio 8</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="flex-grow-1">
+      <section>
+        <article class="container">
+          <h1 class="text-center titulo-sombra mt-3">EJERCICIO 8</h1>
+          <div class="border rounded px-4 pt-4 pb-2 mb-4 bg-info-subtle">
+
+            <h3>Enunciado</h3>
+            <p class="fw-bold">
+              Crear una aplicación web que simule una agenda telefónica. La
+              aplicación deberá constar de 2 páginas individuales con sus
+              respectivos html: la 1ra es un Login donde se pedirá al usuario su
+              nombre y contraseña y si los datos son correctos deberá navegar a la
+              2da página llamada Agenda en la cual se mostraran los datos de una
+              agenda precargada tipo API. Crear 2 objetos uno que contenga los
+              Usuarios y otro con los Contactos Usuarios -> Atributos:
+              nombreUsuario, contraseña, fechaCreacion Contactos -> Atributos:
+              nomyApe, teléfono, dirección, email Deberá mostrar los datos de la
+              agenda en una tabla El usuario deberá ir ingresado esos datos e ir
+              mostrando en la tabla
+            </p>
+          </div>
+        </article>
+        <article class="container rounded border mb-5 bg-info-subtle">
+          <h3 class="text-center my-3 text-info fw-bold">Iniciar Sesion</h3>
+          <form id="loginForm">
+            <div class="mb-3">
+              <label for="usuario" class="form-label">Usuario</label>
+              <input type="text" id="usuario" class="form-control" placeholder="Ej: Pedro123" required>
+            </div>
+            <div class="mb-3">
+              <label for="contraseña" class="form-label">Contraseña</label>
+              <input type="password" id="contrasenia" class="form-control" placeholder="******" required>
+            </div>
+            <div class="mb-3">
+              <div id="mensajeError" class="mb-3 text-danger d-none">Usuario o contraseña incorrectos</div>
+              <button type="submit" class="btn btn-primary w-100">Ingresar</button>
+            </div>
+          </form>
+        </article>
+      </section>
+    </main>
+    <footer class="bg-dark bg-gradient py-3">
+      <p class="text-center"> &copy; Diseñado por Valentin | UTN - FRT</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/ejercicio8.js"></script>
+  </body>
+</html>

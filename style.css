@@ -1,0 +1,71 @@
+.bg-fondo{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/011/216/135/non_2x/computer-language-programming-javascript-code-internet-text-editor-components-on-on-display-screen-free-photo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.bg-fondo1y2{
+    background-image: url('https://img.freepik.com/vector-premium/patron-fondo-coches-dibujos-animados-vector-blanco_287964-1523.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.bg-fondo4y5{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/020/350/493/non_2x/one-continuous-line-drawing-of-young-happy-male-and-female-workers-line-up-neatly-at-the-meeting-room-together-trendy-business-teamwork-celebration-concept-single-line-draw-design-illustration-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.bg-fondo6{
+    background-image: url('https://www.comunidadbaratz.com/wp-content/uploads/La-biblioteca-es-inclusion-social-e-igualdad-de-oportunidades.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.fondo-gradiente {
+  background: linear-gradient(
+    to right,
+    rgba(131, 58, 180, 0.6),
+    rgba(253, 29, 29, 0.6),
+    rgba(252, 176, 69, 0.6)
+  );
+}
+
+.card img {
+    object-fit: cover;
+    height: 220px;
+}
+
+.titulo-sombra {
+    text-shadow: 5px 4px 4px black;
+}
+
+.bg-gris {
+    background-color: rgba(69, 65, 65, 0.53);
+}
+
+.fondo-gradiente1{
+    background: linear-gradient(
+        to bottom,
+        rgb(46, 46, 57),
+        rgba(37, 37, 168, 1),
+        rgba(0, 212, 255, 1)
+    );
+}
+
+.fondo-gradiente2{
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 194, 23, 1),
+        rgba(0, 201, 84, 1),
+        rgba(227, 227, 227, 1)
+    );
+}
